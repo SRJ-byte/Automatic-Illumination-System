@@ -26,18 +26,18 @@ circuit concept was implemented as a custom-made PCB using EasyEDA.
   ------------------------------------------------------------------------
   Component                                 Quantity Specification
   --------------------- ---------------------------- ---------------------
-  LDR                                              1 Exact part/value: to
-                                                     be confirmed
+  LDR                                              1 
+                                                    
 
-  Transistor                                       1 Exact part number: to
-                                                     be confirmed
+  Transistor                                       1   BC547
+                                                
 
-  LED                                              1 Exact specification:
-                                                     to be confirmed
+  LED                                              1 
+                                          
 
-  Resistor(s)                        To be confirmed Exact resistance
-                                                     values: to be
-                                                     confirmed
+  Resistor(s)                                      1
+                                                     
+                                              
 
   9V Battery                                       1 9V
 
@@ -54,9 +54,6 @@ the intensity of incident light.
 The resulting change in the circuit is used to control the transistor.
 The transistor functions as a switch for the LED.
 
-The exact polarity, resistor values, transistor part number, and LED
-switching condition should be filled in from the final circuit/schematic
-rather than assumed.
 
 ### 5. Breadboard Prototype
 
@@ -66,7 +63,7 @@ transistor, LED, resistor(s), and 9V battery.
 The prototype stage allowed the circuit connections and switching
 behavior to be checked before committing the design to a PCB.
 
-**Insert image:** Breadboard prototype.
+<img width="411" height="403" alt="image" src="https://github.com/user-attachments/assets/77ed387b-0592-4c08-87ab-541bff0db92c" />
 
 ### 6. PCB Development
 
@@ -77,16 +74,12 @@ The PCB was designed using EasyEDA. The design workflow included
 schematic preparation, component placement, trace routing, design
 checking, and preparation for fabrication.
 
-**Insert images:** - EasyEDA schematic - PCB layout - 3D PCB view, if
-available - Fabricated PCB
 
 ### 7. Hardware Assembly
 
 The components were mounted and connected on the custom PCB according to
 the finalized circuit design.
 
-**Insert images:** - Unpopulated PCB - Soldered PCB - Completed PCB -
-Working PCB
 
 ### 8. Testing and Results
 
@@ -98,20 +91,9 @@ exact behavior:
 
   Condition              Expected/Observed LED State   Result
   ---------------------- ----------------------------- ----------------------
-  Bright ambient light   \[Fill in\]                   \[Pass/Observation\]
-  Low ambient light      \[Fill in\]                   \[Pass/Observation\]
+  Bright ambient light   \OFF\]                   \[Pass/Observation\]
+  Low ambient light      \ON\]                   \[Pass/Observation\]
 
-### 9. Problems Encountered and Debugging
-
-Use this section to document actual problems encountered during
-development.
-
-Examples of useful information to record: - Incorrect breadboard
-connection - Component polarity issue - Transistor pin configuration
-issue - Soldering/continuity issue - PCB trace or connection issue - LED
-not responding to the LDR - Power supply issue
-
-Only include issues that actually occurred.
 
 ### 10. Learning Outcomes
 
