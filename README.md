@@ -32,12 +32,9 @@ The prototype shown in the project reference contains:
 -   Transistor
 -   LED
 -   Resistor(s)
--   9V battery
--   Breadboard
--   Jumper wires
 
-> Add the exact transistor part number and resistor values here after
-> confirming them from your circuit/PCB files.
+
+
 
 ## Working Principle
 
@@ -98,33 +95,12 @@ LDR and observing the LED response.
 
 Record the final measured/tested behavior here:
 
-  Test condition            LED response     Observation
-  ------------------------- ---------------- ---------------------
-  Bright light              \[Add result\]   \[Add observation\]
-  Low light / LDR covered   \[Add result\]   \[Add observation\]
+  Test condition            LED response     
+  ------------------------- ----------------
+  Bright light              OFF   
+  Low light / LDR covered   ON 
 
-## Design Files
 
-Recommended repository structure:
-
-``` text
-LDR-Automatic-Illumination/
-├── README.md
-├── images/
-│   ├── breadboard-prototype.jpg
-│   ├── schematic.png
-│   ├── pcb-layout.png
-│   ├── pcb-front.jpg
-│   └── pcb-back.jpg
-├── circuit/
-│   ├── schematic/
-│   └── easyeda/
-├── pcb/
-│   ├── gerber/
-│   └── design-files/
-└── documentation/
-    └── project-report.pdf
-```
 
 ## Tools Used
 
